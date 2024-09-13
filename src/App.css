@@ -1269,6 +1269,9 @@ textarea.form-input::-webkit-resizer { display: none; }
   .info_more-btn ion-icon { display: none; }
 
   .separator { margin: 32px 0; }
+  .separator2{
+    margin: 15px;
+  }
 
   .contacts-list { gap: 20px; }
 
