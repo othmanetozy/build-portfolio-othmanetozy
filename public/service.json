@@ -1,0 +1,24 @@
+
+[
+    {
+      "title": "Web development",
+      "icon": "/images/icon-dev.svg",
+      "description": "High-quality development of sites at the professional level."
+    },
+    {
+      "title": "Mobile Development",
+      "icon": "/images/icon-app.svg",
+      "description": "Professional development of applications for iOS and Android."
+    },
+    {
+      "title": "Mentorship",
+      "icon": "/images/icon-photo.svg",
+      "description": "I love helping developers and learners improve their craft."
+    },
+    {
+        "title": "Web Design",
+        "icon": "/images/icon-photo.svg",
+        "description": "The most modern and high-quality design made at a professional level."
+    }
+  ]
+  
