@@ -44,13 +44,13 @@
   --onyx: hsl(240, 1%, 17%);
   --eerie-black-1: hsl(240, 2%, 13%);
   /* --eerie-black-2: hsl(240, 2%, 12%); */
-  --eerie-black-2: rgb(11 17 32);
+  --eerie-black-2: rgb(30, 30, 30);
   /* --smoky-black: hsl(0, 0%, 7%); */
-  --smoky-black: rgb(15 23 42);
+  --smoky-black: rgb(18, 18, 18);
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
   /* --orange-yellow-crayola: hsl(45, 100%, 72%); */
-  --orange-yellow-crayola: rgb(56 189 248);
+  --orange-yellow-crayola: rgb(247, 219, 136);
   --vegas-gold: hsl(45, 54%, 58%);
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
@@ -175,6 +175,8 @@ section{
   background: var(--jet);
   margin: 16px 0;
 }
+
+
 
 .icon-box {
   position: relative;
@@ -1409,6 +1411,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     height: 8px;
     width: 8px;
     left: -43px;
+    background-color: rgb(252, 184, 39);
   }
 
   .skills-item:not(:last-child) { margin-bottom: 25px; }
