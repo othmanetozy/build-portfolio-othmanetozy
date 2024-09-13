@@ -36,14 +36,35 @@ const Resume = () => {
         </div>
         <ol className='timeline-list'>
           <Timeline 
-          title="R&D Engineer intern"
-          date="2019 - 2024"
-          description="Systems and Computers Engineering Department."
+          title="R&D Engineer intern (internship)"
+          date="March 2024 - August 2024"
+          description={
+            <>
+              - Implementation of a Web Architecture based on WebSockets and Microservices with WebRTC.<br />
+              - Back-end development with Java and Spring Boot.<br />
+              - Front-end development in TypeScript with Angular.<br />
+              - Automation of Builds and Deployments with Jenkins to Ensure Continuous Integration.
+            </>
+          }
+        />
+          <Timeline 
+          title=" Software Engineer Intern (internship)"
+          date="Jul 2023 - Sep 2023"
+          description={
+            <>
+            - Improvement of the “Gigawhat” project for a new type.<br />
+            - Development of the Back-end service with Java based on the Spring Boot framework.<br />
+            - Development of Front-end components with Vue.js based on JavaScript.<br />
+            </>
+          }
           />
           <Timeline 
-          title=" baccalauréat, spécialité science physique"
-          date="2018 - 2019"
-          description="science physique."
+          title=" Web Developer(internship)"
+          date="Jul 2022 - Jull 2022"
+          description={
+            <>
+            </>
+          }
           />
         </ol>
       </div>
