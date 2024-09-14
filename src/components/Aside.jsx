@@ -50,6 +50,7 @@ const Aside = () => {
                     <a href="mailto:othmanetozy.06@gmail.com" className='contact-link'>Casablanca, Maroc</a>
                 </div>
             </li>
+            <a className='social-item' href="https://linktr.ee/othmanetozy">Follow up 🚀</a>
         </ul>
      </div>
     </aside>

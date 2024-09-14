@@ -1608,7 +1608,26 @@ textarea.form-input::-webkit-resizer { display: none; }
     margin: auto;
   }
 
-
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skills-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    text-align: center;
+  }
+  .skills-item img {
+    margin-bottom: 10px;
+  }
 
   /**
    * NAVBAR
@@ -1794,5 +1813,14 @@ textarea.form-input::-webkit-resizer { display: none; }
 	 */
 
   .timeline-text { max-width: 700px; }
-
+    
+  .social-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    color: var(--light-gray-70);
+    font-size: 18px;
+    cursor: pointer;
+  }
 }
