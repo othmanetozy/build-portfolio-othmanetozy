@@ -29,10 +29,11 @@ const About = () => {
         <h2 className='h2 article-title'>About me</h2>
       </header>
       <section className='about-text'>
-        <p> I'm a Computer Science enthusiast from Morocco, working in Software and web development.<br></br>
-        I enjoy problem solving
-        I enjoy working with people, and I'm always looking for new challenges and opportunities.<br></br>
-        Feel free to explore my portfolio to discover my latest projects and learn more about my skills and experience in the field.</p>
+        <p> 
+          I'm a Computer Science enthusiast from Morocco, working in Software and web development.<br />
+          I enjoy problem solving and working with people, and I'm always looking for new challenges and opportunities.<br />
+          Feel free to explore my portfolio to discover my latest projects and learn more about my skills and experience in the field.
+        </p>
       </section>
 
 

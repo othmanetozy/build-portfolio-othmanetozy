@@ -238,6 +238,14 @@ article.active {
   padding-bottom: 7px;
 }
 
+.h2.article-title::after {
+  content: '';
+  display: block;
+  width: 50px;  
+  height: 5px;  
+  background-color: #feb824;  
+  margin-top: 8px; 
+}
 .article-title::after {
   content: "";
   position: absolute;
@@ -494,9 +502,10 @@ main {
 
 .about-text {
   color: var(--light-gray);
-  font-size: var(--fs-6);
-  font-weight: var(--fw-300);
+  font-size: 16px;
   line-height: 1.6;
+  font-weight: 700;
+  font-family: 'Courier New', Courier, monospace;  
 }
 
 .about-text p { margin-bottom: 15px; }
@@ -530,7 +539,6 @@ main {
   content: "";
   position: absolute;
   inset: 1px;
-  background: var(--bg-gradient-jet);
   border-radius: inherit;
   z-index: -1;
 }
@@ -1656,7 +1664,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .main-content {
     min-width: 75%;
-    width: 75%;
+    width: 50%;
     margin: 0;
   }
 
