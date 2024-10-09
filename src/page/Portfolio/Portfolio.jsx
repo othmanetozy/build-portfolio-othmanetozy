@@ -2,14 +2,11 @@ import React, { useEffect, useState } from 'react';
 import { FaRegEye } from 'react-icons/fa6';
 
 const Portfolio = () => {
-  // State to store project data and filtered projects
   const [projects, setProjects] = useState([]);
   const [filteredProjects, setFilteredProjects] = useState([]);
-
-  // State to store the selected category
   const [selectedCategory, setSelectedCategory] = useState('All');
 
-  // Load project data from projects.json
+
   useEffect(() => {
     fetch('/projects.json')
       .then((response) => response.json())
@@ -20,7 +17,6 @@ const Portfolio = () => {
       .catch((error) => console.error('Error loading project data:', error));
   }, []);
 
-  // Function to handle category filter selection
   const handleFilterClick = (category) => {
     setSelectedCategory(category);
     if (category === 'All') {
@@ -59,7 +55,7 @@ const Portfolio = () => {
               data-filter-item
               data-category={project.category}
             >
-              <a href="#">
+              <a href={project.url} target="_blank" rel="noopener noreferrer">
                 <figure className="project-img">
                   <div className="project-item-icon-box">
                     <FaRegEye />

@@ -3,25 +3,29 @@
       "id": 1,
       "title": " ProductTrack",
       "category": "Web Development",
-      "image": "image/angular.webp"
+      "image": "image/angular.webp",
+      "url":"https://github.com/othmanetozy/ProductTrack"
     },
     {
       "id": 2,
       "title": "Ele Car",
       "category": "Web Development",
-      "image": "image/react.webp"
+      "image": "image/react.webp",
+      "url":"https://github.com/othmanetozy/SiryCar"
     },
     {
       "id": 3,
       "title": "DockifySpring",
       "category": "Web Development",
-      "image": "image/docker.webp"
+      "image": "image/docker.webp",
+      "url":"https://github.com/othmanetozy/Build-docker-container-for-spring-boot-app"
     },
     {
       "id": 4,
       "title": "E-Learning",
       "category": "Web Development",
-      "image": "image/E-learning.webp"
+      "image": "image/E-learning.webp",
+      "url":"https://github.com/othmanetozy/project-PFA---Plateforme-E-learning-EMSI"
     },
     {
       "id": 5,
